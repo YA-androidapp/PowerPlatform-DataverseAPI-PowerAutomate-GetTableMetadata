@@ -1,0 +1,341 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "string"
+            },
+            "type": {
+                "type": "string"
+            },
+            "location": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "properties": {
+                "type": "object",
+                "properties": {
+                    "tenantId": {
+                        "type": "string"
+                    },
+                    "azureRegionHint": {
+                        "type": "string"
+                    },
+                    "displayName": {
+                        "type": "string"
+                    },
+                    "createdTime": {
+                        "type": "string"
+                    },
+                    "createdBy": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            },
+                            "displayName": {
+                                "type": "string"
+                            },
+                            "email": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "string"
+                            },
+                            "tenantId": {
+                                "type": "string"
+                            },
+                            "userPrincipalName": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "lastModifiedTime": {
+                        "type": "string"
+                    },
+                    "provisioningState": {
+                        "type": "string"
+                    },
+                    "creationType": {
+                        "type": "string"
+                    },
+                    "environmentSku": {
+                        "type": "string"
+                    },
+                    "isDefault": {
+                        "type": "boolean"
+                    },
+                    "runtimeEndpoints": {
+                        "type": "object",
+                        "properties": {
+                            "microsoft.BusinessAppPlatform": {
+                                "type": "string"
+                            },
+                            "microsoft.CommonDataModel": {
+                                "type": "string"
+                            },
+                            "microsoft.PowerApps": {
+                                "type": "string"
+                            },
+                            "microsoft.PowerAppsAdvisor": {
+                                "type": "string"
+                            },
+                            "microsoft.PowerVirtualAgents": {
+                                "type": "string"
+                            },
+                            "microsoft.ApiManagement": {
+                                "type": "string"
+                            },
+                            "microsoft.Flow": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "expirationTime": {
+                        "type": "string"
+                    },
+                    "maxAllowedExpirationTime": {
+                        "type": "string"
+                    },
+                    "linkedEnvironmentMetadata": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string"
+                            },
+                            "resourceId": {
+                                "type": "string"
+                            },
+                            "friendlyName": {
+                                "type": "string"
+                            },
+                            "uniqueName": {
+                                "type": "string"
+                            },
+                            "domainName": {
+                                "type": "string"
+                            },
+                            "version": {
+                                "type": "string"
+                            },
+                            "instanceUrl": {
+                                "type": "string"
+                            },
+                            "instanceApiUrl": {
+                                "type": "string"
+                            },
+                            "baseLanguage": {
+                                "type": "integer"
+                            },
+                            "instanceState": {
+                                "type": "string"
+                            },
+                            "createdTime": {
+                                "type": "string"
+                            },
+                            "modifiedTime": {
+                                "type": "string"
+                            },
+                            "hostNameSuffix": {
+                                "type": "string"
+                            },
+                            "bapSolutionId": {
+                                "type": "string"
+                            },
+                            "creationTemplates": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "webApiVersion": {
+                                "type": "string"
+                            },
+                            "backgroundOperationsState": {
+                                "type": "string"
+                            },
+                            "scaleGroup": {
+                                "type": "string"
+                            },
+                            "platformSku": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "trialScenarioType": {
+                        "type": "string"
+                    },
+                    "notificationMetadata": {
+                        "type": "object",
+                        "properties": {
+                            "state": {
+                                "type": "string"
+                            },
+                            "branding": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "retentionPeriod": {
+                        "type": "string"
+                    },
+                    "states": {
+                        "type": "object",
+                        "properties": {
+                            "management": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "runtime": {
+                                "type": "object",
+                                "properties": {
+                                    "runtimeReasonCode": {
+                                        "type": "string"
+                                    },
+                                    "requestedBy": {
+                                        "type": "object",
+                                        "properties": {
+                                            "displayName": {
+                                                "type": "string"
+                                            },
+                                            "type": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "id": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "updateCadence": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "retentionDetails": {
+                        "type": "object",
+                        "properties": {
+                            "retentionPeriod": {
+                                "type": "string"
+                            },
+                            "backupsAvailableFromDateTime": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "protectionStatus": {
+                        "type": "object",
+                        "properties": {
+                            "keyManagedBy": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "cluster": {
+                        "type": "object",
+                        "properties": {
+                            "category": {
+                                "type": "string"
+                            },
+                            "number": {
+                                "type": "string"
+                            },
+                            "uriSuffix": {
+                                "type": "string"
+                            },
+                            "geoShortName": {
+                                "type": "string"
+                            },
+                            "environment": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "connectedGroups": {
+                        "type": "array"
+                    },
+                    "lifecycleOperationsEnforcement": {
+                        "type": "object",
+                        "properties": {
+                            "allowedOperations": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "required": [
+                                        "type"
+                                    ]
+                                }
+                            },
+                            "disallowedOperations": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "object",
+                                            "properties": {
+                                                "id": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        },
+                                        "reason": {
+                                            "type": "object",
+                                            "properties": {
+                                                "message": {
+                                                    "type": "string"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "required": [
+                                        "type",
+                                        "reason"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "governanceConfiguration": {
+                        "type": "object",
+                        "properties": {
+                            "protectionLevel": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "required": [
+            "id",
+            "type",
+            "location",
+            "name",
+            "properties"
+        ]
+    }
+}

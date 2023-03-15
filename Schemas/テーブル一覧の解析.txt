@@ -1,0 +1,1028 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "@@odata.context": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "value": {
+            "type": "array",
+            "items": {
+                "type": [
+                    "object",
+                    "null"
+                ],
+                "properties": {
+                    "ActivityTypeMask": {
+                        "type": "integer"
+                    },
+                    "AutoRouteToOwnerQueue": {
+                        "type": "boolean"
+                    },
+                    "CanTriggerWorkflow": {
+                        "type": "boolean"
+                    },
+                    "EntityHelpUrlEnabled": {
+                        "type": "boolean"
+                    },
+                    "EntityHelpUrl": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "IsDocumentManagementEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsOneNoteIntegrationEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsInteractionCentricEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsKnowledgeManagementEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsSLAEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsBPFEntity": {
+                        "type": "boolean"
+                    },
+                    "IsDocumentRecommendationsEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsMSTeamsIntegrationEnabled": {
+                        "type": "boolean"
+                    },
+                    "SettingOf": {},
+                    "DataProviderId": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "DataSourceId": {},
+                    "AutoCreateAccessTeams": {
+                        "type": "boolean"
+                    },
+                    "IsActivity": {
+                        "type": "boolean"
+                    },
+                    "IsActivityParty": {
+                        "type": "boolean"
+                    },
+                    "IsRetrieveAuditEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsRetrieveMultipleAuditEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsArchivalEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsRetentionEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsAvailableOffline": {
+                        "type": "boolean"
+                    },
+                    "IsChildEntity": {
+                        "type": "boolean"
+                    },
+                    "IsAIRUpdated": {
+                        "type": "boolean"
+                    },
+                    "IconLargeName": {},
+                    "IconMediumName": {},
+                    "IconSmallName": {},
+                    "IconVectorName": {},
+                    "IsCustomEntity": {
+                        "type": "boolean"
+                    },
+                    "IsBusinessProcessEnabled": {
+                        "type": "boolean"
+                    },
+                    "SyncToExternalSearchIndex": {
+                        "type": "boolean"
+                    },
+                    "IsOptimisticConcurrencyEnabled": {
+                        "type": "boolean"
+                    },
+                    "ChangeTrackingEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsImportable": {
+                        "type": "boolean"
+                    },
+                    "IsIntersect": {
+                        "type": "boolean"
+                    },
+                    "IsManaged": {
+                        "type": "boolean"
+                    },
+                    "IsEnabledForCharts": {
+                        "type": "boolean"
+                    },
+                    "IsEnabledForTrace": {
+                        "type": "boolean"
+                    },
+                    "IsValidForAdvancedFind": {
+                        "type": "boolean"
+                    },
+                    "DaysSinceRecordLastModified": {
+                        "type": "integer"
+                    },
+                    "MobileOfflineFilters": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "IsReadingPaneEnabled": {
+                        "type": "boolean"
+                    },
+                    "IsQuickCreateEnabled": {
+                        "type": "boolean"
+                    },
+                    "LogicalName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "ObjectTypeCode": {
+                        "type": "integer"
+                    },
+                    "OwnershipType": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "PrimaryNameAttribute": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "PrimaryImageAttribute": {},
+                    "PrimaryIdAttribute": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "RecurrenceBaseEntityLogicalName": {},
+                    "ReportViewName": {},
+                    "SchemaName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "IntroducedVersion": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "IsStateModelAware": {
+                        "type": "boolean"
+                    },
+                    "EnforceStateTransitions": {
+                        "type": "boolean"
+                    },
+                    "ExternalName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "EntityColor": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "LogicalCollectionName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "ExternalCollectionName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "CollectionSchemaName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "EntitySetName": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "IsEnabledForExternalChannels": {
+                        "type": "boolean"
+                    },
+                    "IsPrivate": {
+                        "type": "boolean"
+                    },
+                    "UsesBusinessDataLabelTable": {
+                        "type": "boolean"
+                    },
+                    "IsLogicalEntity": {
+                        "type": "boolean"
+                    },
+                    "HasNotes": {
+                        "type": "boolean"
+                    },
+                    "HasActivities": {
+                        "type": "boolean"
+                    },
+                    "HasFeedback": {
+                        "type": "boolean"
+                    },
+                    "IsSolutionAware": {
+                        "type": "boolean"
+                    },
+                    "CreatedOn": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "ModifiedOn": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "HasEmailAddresses": {
+                        "type": "boolean"
+                    },
+                    "OwnerId": {},
+                    "OwnerIdType": {
+                        "type": "integer"
+                    },
+                    "OwningBusinessUnit": {},
+                    "TableType": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "MetadataId": {
+                        "type": [
+                            "string",
+                            "null"
+                        ]
+                    },
+                    "HasChanged": {},
+                    "Description": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "LocalizedLabels": {
+                                "type": "array",
+                                "items": {
+                                    "type": [
+                                        "object",
+                                        "null"
+                                    ],
+                                    "properties": {
+                                        "Label": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "LanguageCode": {
+                                            "type": "integer"
+                                        },
+                                        "IsManaged": {
+                                            "type": "boolean"
+                                        },
+                                        "MetadataId": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "HasChanged": {}
+                                    },
+                                    "required": []
+                                }
+                            },
+                            "UserLocalizedLabel": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "Label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "LanguageCode": {
+                                        "type": "integer"
+                                    },
+                                    "IsManaged": {
+                                        "type": "boolean"
+                                    },
+                                    "MetadataId": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "HasChanged": {}
+                                }
+                            }
+                        }
+                    },
+                    "DisplayCollectionName": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "LocalizedLabels": {
+                                "type": "array",
+                                "items": {
+                                    "type": [
+                                        "object",
+                                        "null"
+                                    ],
+                                    "properties": {
+                                        "Label": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "LanguageCode": {
+                                            "type": "integer"
+                                        },
+                                        "IsManaged": {
+                                            "type": "boolean"
+                                        },
+                                        "MetadataId": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "HasChanged": {}
+                                    },
+                                    "required": []
+                                }
+                            },
+                            "UserLocalizedLabel": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "Label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "LanguageCode": {
+                                        "type": "integer"
+                                    },
+                                    "IsManaged": {
+                                        "type": "boolean"
+                                    },
+                                    "MetadataId": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "HasChanged": {}
+                                }
+                            }
+                        }
+                    },
+                    "DisplayName": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "LocalizedLabels": {
+                                "type": "array",
+                                "items": {
+                                    "type": [
+                                        "object",
+                                        "null"
+                                    ],
+                                    "properties": {
+                                        "Label": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "LanguageCode": {
+                                            "type": "integer"
+                                        },
+                                        "IsManaged": {
+                                            "type": "boolean"
+                                        },
+                                        "MetadataId": {
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
+                                        },
+                                        "HasChanged": {}
+                                    },
+                                    "required": []
+                                }
+                            },
+                            "UserLocalizedLabel": {
+                                "type": [
+                                    "object",
+                                    "null"
+                                ],
+                                "properties": {
+                                    "Label": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "LanguageCode": {
+                                        "type": "integer"
+                                    },
+                                    "IsManaged": {
+                                        "type": "boolean"
+                                    },
+                                    "MetadataId": {
+                                        "type": [
+                                            "string",
+                                            "null"
+                                        ]
+                                    },
+                                    "HasChanged": {}
+                                }
+                            }
+                        }
+                    },
+                    "IsAuditEnabled": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsValidForQueue": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsConnectionsEnabled": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsCustomizable": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsRenameable": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsMappable": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsDuplicateDetectionEnabled": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanCreateAttributes": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanCreateForms": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanCreateViews": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanCreateCharts": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanBeRelatedEntityInRelationship": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanBePrimaryEntityInRelationship": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanBeInManyToMany": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanBeInCustomEntityAssociation": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanEnableSyncToExternalSearchIndex": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanModifyAdditionalSettings": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanChangeHierarchicalRelationship": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "CanChangeTrackingBeEnabled": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsMailMergeEnabled": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsVisibleInMobile": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsVisibleInMobileClient": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsReadOnlyInMobileClient": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "IsOfflineInMobileClient": {
+                        "type": [
+                            "object",
+                            "null"
+                        ],
+                        "properties": {
+                            "Value": {
+                                "type": "boolean"
+                            },
+                            "CanBeChanged": {
+                                "type": "boolean"
+                            },
+                            "ManagedPropertyLogicalName": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            }
+                        }
+                    },
+                    "Privileges": {
+                        "type": "array",
+                        "items": {
+                            "type": [
+                                "object",
+                                "null"
+                            ],
+                            "properties": {
+                                "CanBeBasic": {
+                                    "type": "boolean"
+                                },
+                                "CanBeDeep": {
+                                    "type": "boolean"
+                                },
+                                "CanBeGlobal": {
+                                    "type": "boolean"
+                                },
+                                "CanBeLocal": {
+                                    "type": "boolean"
+                                },
+                                "CanBeEntityReference": {
+                                    "type": "boolean"
+                                },
+                                "CanBeParentEntityReference": {
+                                    "type": "boolean"
+                                },
+                                "Name": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "PrivilegeId": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                },
+                                "PrivilegeType": {
+                                    "type": [
+                                        "string",
+                                        "null"
+                                    ]
+                                }
+                            },
+                            "required": []
+                        }
+                    },
+                    "Settings": {
+                        "type": "array"
+                    }
+                },
+                "required": []
+            }
+        }
+    }
+}
